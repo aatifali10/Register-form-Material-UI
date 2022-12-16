@@ -1,38 +1,73 @@
 .App {
   text-align: center;
+  background-color: rgb(178, 205, 228);
+  padding: 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conatiner {
+  background-color: blue;
+  padding: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fields {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.fields input {
+  margin: 10px;
+  padding: 15px;
+  width: 30%;
+  border: none;
+  border-radius: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.information {
+  display: flex;
+  justify-content: center;
+}
+.information input {
+  margin: 10px;
+  padding: 15px;
+  width: 30%;
+  border: none;
+  border-radius: 30px;
+}
+.text textarea {
+  width: 692px;
+  border-radius: 10px;
+}
+.submit {
+  padding: 15px;
+  font-size: 30px;
+  background-color: rgb(248, 154, 13);
+  color: #000;
+  border-radius: 100px;
+  margin: 30px;
+  width: 213px;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+}
+/* Login Form */
+form {
+  background-color: rgb(241, 44, 225);
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+}
+.login-form input {
+  display: block;
+  margin: 10px;
+  padding: 15px;
+  width: 30%;
+  border: none;
+  border-radius: 30px;
+}
+.login {
+  padding: 9px;
+  font-size: 33px;
+  background-color: rgb(248, 154, 13);
+  color: #000;
+  border-radius: 100px;
+  margin: 30px;
+  width: 171px;
+  font-family: "Times New Roman";
+  border: none;
 }

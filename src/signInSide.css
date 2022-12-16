@@ -1,0 +1,20 @@
+.password-rest {
+  text-align: center;
+  align-items: center;
+  background-color: #0d9b14;
+}
+.new-account {
+  border: 0;
+  line-height: 1.75;
+  padding: 6px 16px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  border-radius: 400px;
+  font-size: 20px;
+}
+.email {
+  border-radius: 30px;
+  margin-left: 500px;
+  background-color: #0d9b14;
+}
