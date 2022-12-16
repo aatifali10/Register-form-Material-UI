@@ -1,13 +1,13 @@
 // import "./App.css";
 // import LoginForm from "./LoginForm";
 // import Register from "./Register";
-import Checkout from "./Checkout";
 import SignInSide from "./SignInSide";
+import SignUp from "./SignUp";
 
 function App() {
   return (
     <div className="App">
-      <Checkout />
+      <SignUp />
       {/* <Register />
       <LoginForm /> */}
       <SignInSide />
