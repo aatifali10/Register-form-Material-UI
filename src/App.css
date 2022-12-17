@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   background-color: rgb(178, 205, 228);
   padding: 100px;
@@ -44,7 +44,7 @@
   font-family: "Times New Roman", Times, serif;
   border: none;
 }
-/* Login Form */
+
 form {
   background-color: rgb(241, 44, 225);
 }
@@ -70,4 +70,7 @@ form {
   width: 171px;
   font-family: "Times New Roman";
   border: none;
+} */
+.signup-form {
+  padding: 100px 400px;
 }

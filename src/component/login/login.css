@@ -1,0 +1,32 @@
+.login-wrapper {
+  display: grid;
+  place-items: center;
+  height: 10vh;
+}
+.login-wrapper img {
+  width: 200px;
+}
+.login {
+  width: 400px;
+  margin: 200px auto;
+  background-color: rgb(233, 233, 233);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.login h2 {
+  margin: 20px 0px;
+}
+.login button {
+  background-color: #1778f2;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 2pxss;
+}

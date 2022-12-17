@@ -1,0 +1,109 @@
+.messagesender {
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 4px 2px 10px #ccc;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.messgaesender-top {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.messgaesender-top form {
+  flex: 1;
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+.messgaesender-top form input {
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+.messagesender-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+  margin-top: 15px;
+}
+.messanger-options {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.messanger-options:hover {
+  background-color: whitesmoke;
+}
+.messanger-options p {
+  margin-left: 10px;
+}
+.modal-pop {
+  top: 50%;
+  background-color: #fff;
+  width: 500px;
+  margin: 0px auto;
+  position: relative;
+  transform: translateY(-50%);
+  padding: 10px;
+  border-radius: 10px;
+}
+.modalHeading {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  height: 40px;
+}
+.modalHeading .MuiIconButton-root {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.modalHeader-top {
+  display: flex;
+  padding: 15px 0px;
+  align-items: center;
+}
+.modalHeader-top h5 {
+  margin-left: 10px;
+}
+.modalbody textarea {
+  width: 100%;
+  min-height: 100px;
+  border: 0px;
+  font-size: 25px;
+  outline: 0;
+  padding-top: 10px 0px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.modalfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+.post-submit {
+  width: 100%;
+  background-color: #2391fa;
+  padding: 10px 20px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: 0px;
+  outline: 0px;
+  font-size: 16px;
+  cursor: pointer;
+}

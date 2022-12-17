@@ -1,16 +1,19 @@
 // import "./App.css";
+
+import LeftSideBar from "./component/leftside/LeftSideBar";
+// import RegisterForm from "./Home";
 // import LoginForm from "./LoginForm";
-// import Register from "./Register";
-import SignInSide from "./SignInSide";
-import SignUp from "./SignUp";
 
 function App() {
   return (
     <div className="App">
-      <SignUp />
-      {/* <Register />
-      <LoginForm /> */}
-      <SignInSide />
+      <div className="app-body">
+        <LeftSideBar />
+        {/* <Feed /> */}
+        {/* <RightSideba /> */}
+      </div>
+      {/* <LoginForm /> */}
+      {/* <RegisterForm /> */}
     </div>
   );
 }

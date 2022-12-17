@@ -1,0 +1,39 @@
+.post {
+  border-color: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.post-top {
+  display: flex;
+  justify-content: space-between;
+}
+.post-topleft {
+  display: flex;
+  align-items: center;
+}
+.postInfo {
+  margin-left: 10px;
+}
+.postInfo p svg {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.post-middle p {
+  margin: 20px 0px;
+}
+.post-middle img {
+  width: 100%;
+}
+.post-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgrey;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.post-bottomoptions {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
