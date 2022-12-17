@@ -3,19 +3,8 @@ import Post from "./posts/Post";
 import "./feed.css";
 import MessageSender from "./message/MessageSender";
 import StoryReels from "./StoryReels";
-// import { collection, onSnapshot, docs } from "firebase/firestore";
-// import { db } from "../../firebase";
 
 const Feed = () => {
-  // const [post, setPost] = useState([]);
-
-  // useEffect(() => {
-  //   collection(db, "posts");
-  //   console.log("hello", post).onSnapshot((snp) => {
-  //     setPost(snp.docs.data);
-  //   });
-  // }, []);
-
   return (
     <div className="feed">
       <StoryReels />
