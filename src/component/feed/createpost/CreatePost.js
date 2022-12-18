@@ -83,6 +83,10 @@ const CreatePost = () => {
             <p>Live video</p>
           </div>
           <div className="messanger-options">
+            <VideoCallIcon style={{ color: "red" }} fontSize="large" />
+            <p>Tag</p>
+          </div>
+          <div className="messanger-options">
             <InsertPhotoIcon style={{ color: "lightgreen" }} fontSize="large" />
             <p>Photo/Video</p>
           </div>
@@ -90,6 +94,7 @@ const CreatePost = () => {
             <EmojiEmotionsIcon style={{ color: "#ffb100" }} fontSize="large" />
             <p>Feeling/Activity</p>
           </div>
+          <button>Share</button>
         </div>
       </div>
     </>

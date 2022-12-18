@@ -1,3 +1,29 @@
+.rightsidebar {
+  width: 25%;
+  padding: 0px 20px;
+  box-shadow: 0 0 5px #ccc;
+}
+.BirthdayPerson {
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgb(61, 60, 60);
+}
+.birthday-notifiction {
+  display: flex;
+  align-items: center;
+}
+.birthday-notifiction h4 {
+  color: gray;
+  padding: 20px;
+}
+.birthday-notifiction span {
+  color: black;
+  font-weight: bold;
+}
+.birthday-img img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
 .widget {
   margin-top: 30px;
   margin-right: 10px;
@@ -16,7 +42,6 @@
 .widget-bodyoptions {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 .widget-bodyoptions h4 {
   margin-left: 10px;

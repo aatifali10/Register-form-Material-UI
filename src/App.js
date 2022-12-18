@@ -1,6 +1,6 @@
 import LeftSideBar from "./component/leftside/LeftSideBar";
 // import Feed from "./component/feed/Feed";
-// import RightSidebar from "./component/rightsidebar/RightSidebar";
+import RightSidebar from "./component/rightsidebar/RightSidebar";
 import Header from "./component/header/Header";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       >
         <LeftSideBar />
         {/* <Feed /> */}
-        {/* <RightSidebar /> */}
+        <RightSidebar />
       </div>
     </>
   );
