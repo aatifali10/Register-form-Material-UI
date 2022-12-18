@@ -1,7 +1,7 @@
 import { Avatar, IconButton, Modal } from "@mui/material";
 import { useState } from "react";
 import Afridi from "../../../images/Shahid.jpg";
-import "./message.css";
+import "./post.css";
 import React from "react";
 import VideoCallIcon from "@mui/icons-material/VideoCall";
 import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
@@ -9,7 +9,7 @@ import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import CloseIcon from "@mui/icons-material/Close";
 import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
 
-const MessageSender = () => {
+const CreatePost = () => {
   const [open, setOpen] = useState(false);
 
   const handleClose = () => {
@@ -96,4 +96,4 @@ const MessageSender = () => {
   );
 };
 
-export default MessageSender;
+export default CreatePost;

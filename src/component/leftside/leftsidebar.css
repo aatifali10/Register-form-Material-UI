@@ -1,20 +1,24 @@
-.sidebar {
-  margin-top: 20px;
-  flex: 0.33;
-  position: sticky;
-  top: 0;
+.right-side-bar-options {
+  /* background-color: aqua; */
+  width: 25%;
+  position: absolute;
+  padding-top: 30px;
+  border-bottom: 2px solid #ccc;
 }
-.sidebarRow {
-  display: flex;
+.right-side-bar-options li {
+  list-style: none;
   padding: 5px 20px;
-  align-items: center;
-  margin-bottom: 10px;
 }
-.sidebarRow p {
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 14px;
+.right-side-bar-options li span {
+  left: 20px;
+  position: relative;
+  top: -7px;
 }
-.sidebarRow:hover {
-  background-color: rgb(211 211 211/31%);
+.btn {
+  background-color: rgb(243, 245, 245);
+  padding: 10px;
+  margin: 20px;
+  width: 40%;
+  border-radius: 100px;
+  border: none;
 }

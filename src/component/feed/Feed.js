@@ -1,14 +1,14 @@
 import React from "react";
 import Post from "./posts/Post";
 import "./feed.css";
-import MessageSender from "./message/MessageSender";
-import StoryReels from "./StoryReels";
+import CreatePost from "./createpost/CreatePost";
+// import StoryReels from "./StoryReels";
 
 const Feed = () => {
   return (
     <div className="feed">
-      <StoryReels />
-      <MessageSender />
+      {/* <StoryReels /> */}
+      <CreatePost />
 
       <Post
         photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
