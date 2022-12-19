@@ -6,13 +6,13 @@ import Person2Icon from "@mui/icons-material/Person2";
 import ForumIcon from "@mui/icons-material/Forum";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import { IconButton } from "@mui/material";
-import Shahid from "../../images/Shahid.jpg";
+import image from "../../images/images2.jpg";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="header-left">
-        <h2>Aatif Warraich</h2>
+        <h2>Tim Divid</h2>
       </div>
 
       <div className="header-search">
@@ -35,7 +35,7 @@ const Header = () => {
           <NotificationsIcon />
         </IconButton>
 
-        <Avatar alt="Lala" src={Shahid} />
+        <Avatar alt="Lala" src={image} />
       </div>
     </div>
   );

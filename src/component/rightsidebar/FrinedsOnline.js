@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar } from "@mui/material";
-import Afridi from "../../images/Shahid.jpg";
+import image from "../../images/images2.jpg";
 
 const FrinedsOnline = () => {
   return (
@@ -12,27 +12,27 @@ const FrinedsOnline = () => {
       </div>
       <div className="widget-body">
         <div className="widget-bodyoptions">
-          <Avatar src={Afridi} />
+          <Avatar src={image} />
           <h4>Daniyal Manzoor</h4>
         </div>
         <div className="widget-bodyoptions">
-          <Avatar src={Afridi} />
+          <Avatar src={image} />
           <h4>ALi shair</h4>
         </div>
         <div className="widget-bodyoptions">
-          <Avatar src={Afridi} />
+          <Avatar src={image} />
           <h4>Mohsin</h4>
         </div>
         <div className="widget-bodyoptions">
-          <Avatar src={Afridi} />
+          <Avatar src={image} />
           <h4>Aqib Ali</h4>
         </div>
         <div className="widget-bodyoptions">
-          <Avatar src={Afridi} />
+          <Avatar src={image} />
           <h4>Kashif ALi</h4>
         </div>
         <div className="widget-bodyoptions">
-          <Avatar src={Afridi} />
+          <Avatar src={image} />
           <h4>Waqar Hussain</h4>
         </div>
       </div>

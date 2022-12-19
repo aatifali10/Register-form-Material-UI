@@ -1,8 +1,9 @@
 .Leftsidebar {
-  background-color: aqua;
   width: 25%;
+  box-shadow: 0 0 5px #ccc;
 }
 .right-side-bar-options {
+  width: 25%;
   position: absolute;
   padding-top: 30px;
   border-bottom: 2px solid #ccc;
@@ -27,7 +28,7 @@
 .friends {
   position: relative;
   top: 443px;
-  padding: 20px;
+  padding: 0 20px;
 }
 .modalHeader-top {
   display: flex;
@@ -35,5 +36,4 @@
 .modalHeader-top h5 {
   position: relative;
   left: 20px;
-  top: -7px;
 }

@@ -6,7 +6,7 @@ import Link from "@mui/material/Link";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-// import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const theme = createTheme();
 
@@ -92,7 +92,7 @@ export default function LoginForm() {
                       color: "#ffffff",
                     }}
                   >
-                    Create a New Account
+                    <NavLink to="/RegisterForm">Create a New Account</NavLink>
                   </Button>
                 </Grid>
               </Box>

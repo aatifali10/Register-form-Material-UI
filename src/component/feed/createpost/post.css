@@ -30,7 +30,7 @@
 .messagesender-bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   border-top: 1px solid lightgrey;
   margin-top: 15px;
 }
@@ -70,7 +70,6 @@
 }
 .modalHeader-top {
   display: flex;
-  padding: 15px 0px;
   align-items: center;
 }
 .modalHeader-top h5 {

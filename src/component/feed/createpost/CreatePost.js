@@ -1,6 +1,6 @@
 import { Avatar, IconButton, Modal } from "@mui/material";
 import { useState } from "react";
-import Afridi from "../../../images/Shahid.jpg";
+import image from "../../../images/images2.jpg";
 import "./post.css";
 import React from "react";
 import VideoCallIcon from "@mui/icons-material/VideoCall";
@@ -8,6 +8,8 @@ import InsertPhotoIcon from "@mui/icons-material/InsertPhoto";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import CloseIcon from "@mui/icons-material/Close";
 import PhotoLibraryIcon from "@mui/icons-material/PhotoLibrary";
+import LabelIcon from "@mui/icons-material/Label";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 const CreatePost = () => {
   const [open, setOpen] = useState(false);
@@ -30,7 +32,7 @@ const CreatePost = () => {
               </IconButton>
             </div>
             <div className="modalHeader-top">
-              <Avatar src={Afridi} />
+              <Avatar src={image} />
               <h5>Aatif Ali</h5>
             </div>
             <div className="modalbody">
@@ -79,22 +81,21 @@ const CreatePost = () => {
         </div>
         <div className="messagesender-bottom">
           <div className="messanger-options">
-            <VideoCallIcon style={{ color: "red" }} fontSize="large" />
-            <p>Live video</p>
+            <InsertPhotoIcon style={{ color: "lightgreen" }} fontSize="large" />
+            <p>Photo/Video</p>
           </div>
           <div className="messanger-options">
-            <VideoCallIcon style={{ color: "red" }} fontSize="large" />
+            <LabelIcon style={{ color: "blue" }} fontSize="large" />
             <p>Tag</p>
           </div>
           <div className="messanger-options">
-            <InsertPhotoIcon style={{ color: "lightgreen" }} fontSize="large" />
-            <p>Photo/Video</p>
+            <LocationOnIcon style={{ color: "green" }} fontSize="large" />
+            <p>Location</p>
           </div>
           <div className="messanger-options">
             <EmojiEmotionsIcon style={{ color: "#ffb100" }} fontSize="large" />
             <p>Feeling/Activity</p>
           </div>
-          <button>Share</button>
         </div>
       </div>
     </>

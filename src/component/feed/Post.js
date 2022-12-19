@@ -1,13 +1,12 @@
 import React from "react";
 import Post from "./posts/Post";
-import "./feed.css";
+import "./post.css";
 import CreatePost from "./createpost/CreatePost";
 
 const Feed = () => {
   return (
     <div className="feed">
       <CreatePost />
-
       <Post
         photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
         image="https://cricfolks.com/wp-content/uploads/2022/08/Ahmed-Shehzad-gets-a-leading-role-in-KPL-2.jpg"

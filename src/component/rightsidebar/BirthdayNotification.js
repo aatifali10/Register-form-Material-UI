@@ -1,7 +1,7 @@
 import React from "react";
 import "./rightSideBar.css";
 import CelebrationIcon from "@mui/icons-material/Celebration";
-import Shahid from "../../images/Shahid.jpg";
+import image from "../../images/images2.jpg";
 
 const RightSidebar = () => {
   return (
@@ -14,7 +14,7 @@ const RightSidebar = () => {
         </h4>
       </div>
       <div className="birthday-img">
-        <img src={Shahid} alt="" />
+        <img src={image} alt="" />
       </div>
     </div>
   );
