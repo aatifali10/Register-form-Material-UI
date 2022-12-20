@@ -2,7 +2,6 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import Link from "@mui/material/Link";
-// import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -10,16 +9,7 @@ import { NavLink } from "react-router-dom";
 
 const theme = createTheme();
 
-export default function LoginForm() {
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   const data = new FormData(event.currentTarget);
-  //   console.log({
-  //     email: data.get("email"),
-  //     password: data.get("password"),
-  //   });
-  // };
-
+export default function Book() {
   return (
     <ThemeProvider theme={theme}>
       <div style={{ padding: 400, paddingTop: 100 }}>
@@ -63,7 +53,7 @@ export default function LoginForm() {
                     fontSize: "18px",
                   }}
                 >
-                  Log In
+                  <NavLink to="/Home">Log In</NavLink>
                 </Button>
                 <Grid container>
                   <Grid item xs>
