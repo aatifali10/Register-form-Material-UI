@@ -33,12 +33,12 @@ const CreatePost = () => {
             </div>
             <div className="modalHeader-top">
               <Avatar src={image} />
-              <h5>Aatif Ali</h5>
+              <h5>Dean</h5>
             </div>
             <div className="modalbody">
               <textarea
                 rows="5"
-                placeholder="What's on your mind Aatif Ali ? "
+                placeholder="What's on your mind Dean ? "
               ></textarea>
             </div>
             <div className="modalfooter">
@@ -70,7 +70,7 @@ const CreatePost = () => {
 
       <div className="messagesender" onClose={handleClose}>
         <div className="messgaesender-top">
-          <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkrccHHFIkFQ19xnGdkQSaMzm4i3t42UlH0jj2jrR1VRxZPknimoh54VMLYOMvn_y7uUg&usqp=CAU" />
+          <Avatar src="https://images.unsplash.com/photo-1567784177951-6fa58317e16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" />
           <form>
             <input
               type="text"
@@ -81,19 +81,22 @@ const CreatePost = () => {
         </div>
         <div className="messagesender-bottom">
           <div className="messanger-options">
-            <InsertPhotoIcon style={{ color: "lightgreen" }} fontSize="large" />
+            <InsertPhotoIcon
+              style={{ color: "lightgreen" }}
+              fontSize="medium"
+            />
             <p>Photo/Video</p>
           </div>
           <div className="messanger-options">
-            <LabelIcon style={{ color: "blue" }} fontSize="large" />
+            <LabelIcon style={{ color: "blue" }} fontSize="medium" />
             <p>Tag</p>
           </div>
           <div className="messanger-options">
-            <LocationOnIcon style={{ color: "green" }} fontSize="large" />
+            <LocationOnIcon style={{ color: "green" }} fontSize="medium" />
             <p>Location</p>
           </div>
           <div className="messanger-options">
-            <EmojiEmotionsIcon style={{ color: "#ffb100" }} fontSize="large" />
+            <EmojiEmotionsIcon style={{ color: "#ffb100" }} fontSize="medium" />
             <p>Feeling/Activity</p>
           </div>
         </div>

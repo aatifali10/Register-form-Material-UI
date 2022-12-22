@@ -13,27 +13,27 @@ const FrinedsOnline = () => {
       <div className="widget-body">
         <div className="widget-bodyoptions">
           <Avatar src={image} />
-          <h4>Daniyal Manzoor</h4>
+          <h4>Jonson</h4>
         </div>
         <div className="widget-bodyoptions">
           <Avatar src={image} />
-          <h4>ALi shair</h4>
+          <h4>Deani</h4>
         </div>
         <div className="widget-bodyoptions">
           <Avatar src={image} />
-          <h4>Mohsin</h4>
+          <h4>Jespar</h4>
         </div>
         <div className="widget-bodyoptions">
           <Avatar src={image} />
-          <h4>Aqib Ali</h4>
+          <h4>Warnar</h4>
         </div>
         <div className="widget-bodyoptions">
           <Avatar src={image} />
-          <h4>Kashif ALi</h4>
+          <h4>Tom</h4>
         </div>
         <div className="widget-bodyoptions">
           <Avatar src={image} />
-          <h4>Waqar Hussain</h4>
+          <h4>John</h4>
         </div>
       </div>
     </>

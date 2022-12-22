@@ -27,7 +27,7 @@ const Post = ({ photoURL, image, username, timestamp, message }) => {
         <p>{message}</p>
         {image && (
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/fb-clone-a459e.appspot.com/o/images%2Fthumbnail1.jpg?alt=media&token=efb312e2-bc9d-45ca-8673-8f489d5b3c35"
+            src="https://images.unsplash.com/photo-1664575196412-ed801e8333a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
             alt=""
           />
         )}

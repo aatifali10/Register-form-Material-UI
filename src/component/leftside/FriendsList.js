@@ -8,67 +8,39 @@ const FriendsList = ({ src, Icon, title }) => {
       <h1> Friends list </h1>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Ali</h5>
+        <h5>Dean jons</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Finch</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Tim Divid</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Mickal</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Deani</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Harry Broke</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Tom </h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Harry</h5>
       </div>
       <div className="modalHeader-top">
         <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
-      </div>
-      <div className="modalHeader-top">
-        <Avatar src={image} />
-        <h5>Aatif Warraich</h5>
+        <h5>Cherry</h5>
       </div>
     </div>
   );
