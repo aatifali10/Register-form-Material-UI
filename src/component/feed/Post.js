@@ -2,10 +2,12 @@ import React from "react";
 import Post from "./posts/Post";
 import "./post.css";
 import CreatePost from "./createpost/CreatePost";
+import StoryReels from "./StoryReels";
 
 const Feed = () => {
   return (
     <div className="feed">
+      <StoryReels />
       <CreatePost />
       <Post
         photoURL="https://images.unsplash.com/photo-1671614188183-57bb238ad7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
