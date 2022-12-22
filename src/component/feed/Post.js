@@ -8,39 +8,78 @@ const Feed = () => {
     <div className="feed">
       <CreatePost />
       <Post
-        photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
-        image="https://cricfolks.com/wp-content/uploads/2022/08/Ahmed-Shehzad-gets-a-leading-role-in-KPL-2.jpg"
-        username="Aatif Ali"
+        photoURL="https://images.unsplash.com/photo-1671614188183-57bb238ad7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
         timestamp="12:40 PM"
-        message="This is test message"
       />
       <Post
-        photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
-        image="https://cricfolks.com/wp-content/uploads/2022/08/Ahmed-Shehzad-gets-a-leading-role-in-KPL-2.jpg"
-        username="Aatif Ali"
+        photoURL="https://images.unsplash.com/photo-1665686376173-ada7a0031a85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
         timestamp="12:40 PM"
-        message="This is test message"
       />
       <Post
-        photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
-        image="https://cricfolks.com/wp-content/uploads/2022/08/Ahmed-Shehzad-gets-a-leading-role-in-KPL-2.jpg"
-        username="Aatif Ali"
+        photoURL="https://images.unsplash.com/photo-1565462900119-a16b91dead9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
         timestamp="12:40 PM"
-        message="This is test message"
       />
       <Post
-        photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
-        image="https://cricfolks.com/wp-content/uploads/2022/08/Ahmed-Shehzad-gets-a-leading-role-in-KPL-2.jpg"
-        username="Aatif Ali"
+        photoURL="https://images.unsplash.com/photo-1611832197549-ff910be125dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
         timestamp="12:40 PM"
-        message="This is test message"
+      />
+
+      <Post
+        photoURL="https://images.unsplash.com/photo-1671614188183-57bb238ad7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
       />
       <Post
-        photoURL="https://c.cricketpakistan.com.pk/images/posts/cover_1659680618WhatsApp-Image-2022-08-05-at-11.23.22-AM.jpeg"
-        image="https://cricfolks.com/wp-content/uploads/2022/08/Ahmed-Shehzad-gets-a-leading-role-in-KPL-2.jpg"
-        username="Aatif Ali"
+        photoURL="https://images.unsplash.com/photo-1665686376173-ada7a0031a85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
         timestamp="12:40 PM"
-        message="This is test message"
+      />
+      <Post
+        photoURL="https://images.unsplash.com/photo-1565462900119-a16b91dead9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
+      />
+      <Post
+        photoURL="https://images.unsplash.com/photo-1611832197549-ff910be125dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
+      />
+
+      <Post
+        photoURL="https://images.unsplash.com/photo-1671614188183-57bb238ad7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
+      />
+      <Post
+        photoURL="https://images.unsplash.com/photo-1665686376173-ada7a0031a85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
+      />
+      <Post
+        photoURL="https://images.unsplash.com/photo-1565462900119-a16b91dead9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
+      />
+      <Post
+        photoURL="https://images.unsplash.com/photo-1611832197549-ff910be125dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        image="https://images.unsplash.com/photo-1671663707612-c60dd5d7501b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+        username="Methaw wade"
+        timestamp="12:40 PM"
       />
     </div>
   );
